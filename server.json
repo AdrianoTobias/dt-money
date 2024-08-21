@@ -23,6 +23,22 @@
       "category": "Educação",
       "price": 1980,
       "createdAt": "2024-08-20T19:24:44.505Z"
+    },
+    {
+      "description": "Pastel",
+      "price": 10,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2024-08-21T23:49:57.775Z",
+      "id": 4
+    },
+    {
+      "description": "Desenvolvimento de App",
+      "price": 1000,
+      "category": "Educação",
+      "type": "income",
+      "createdAt": "2024-08-21T23:50:22.412Z",
+      "id": 5
     }
   ]
 }
