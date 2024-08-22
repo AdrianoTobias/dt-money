@@ -23,6 +23,18 @@ export default tseslint.config(
         'warn',
         { allowConstantExport: true },
       ],
+      // Regras de estilo
+      'semi': ['error', 'never'],            // Requer ponto e vírgula
+      'quotes': ['error', 'single'],         // Requer aspas
+      'indent': ['error', 2],                // Indentação de 2 espaços
+      "comma-dangle": ["error", { // Requer vírgula no final de:
+        "arrays": "always",
+        "objects": "always",
+        "imports": "never",
+        "exports": "never",
+        "functions": "never"
+    }],
+      'arrow-parens': ['error', 'as-needed'],// Requer parênteses, quando preciso, em arrow functions
     },
   },
 )
